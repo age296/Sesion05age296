@@ -10,7 +10,6 @@ public class Actividad {
 	private boolean apta;
 	private double puntuacionTotal;
 
-
 	public String getNombre() {
 		return nombre;
 	}
