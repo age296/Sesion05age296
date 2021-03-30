@@ -1,9 +1,5 @@
 package ual.hmis.sesion05;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
 
 /*Escriba el código en Java de un método que tome un valor numérico entero cómo
 parámetro de entrada y devuelva una valor tipo cadena de caracteres cuyo contenido
