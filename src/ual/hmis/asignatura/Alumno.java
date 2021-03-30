@@ -14,16 +14,16 @@ public class Alumno {
 	10 Matrícula
 	Menor que 0 ó mayor a 10 Error en la nota */
 	public String calificacion(double nota) {
-		if(nota > 0 && nota<5)
+		if(nota >= 0 && nota<5)
 			return "Suspenso";
 		else if(nota >= 5 && nota<7)
 			return "Aprobado";
 		else if(nota >= 7 && nota<9)
 			return "Notable";
-		else if(nota >= 7 && nota<9)
+		else if(nota >= 9 && nota<10)
 			return "Sobresaliente";
 		else if(nota == 10)
-			return "Sobresaliente";
+			return "Matrícula";
 		
 	return "Error en la nota";
 	}

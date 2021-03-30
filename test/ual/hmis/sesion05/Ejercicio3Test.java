@@ -13,7 +13,7 @@ public class Ejercicio3Test {
 		"13,***********, false",
 		"6,*****, false",
 		"1,****, false",
-		"-1,número erróneo,true"
+		"-1,nÃºmero errÃ³neo,true"
 		})
 	
 	@ParameterizedTest(name = "{index} => Con numero ({0}) y asteriscos ({1}) sale {2}")
@@ -21,7 +21,8 @@ public class Ejercicio3Test {
 	
 		Ejercicio3 e3 = new Ejercicio3();
 
-		assertEquals(Boolean.parseBoolean(result), asteriscos.equals(e3.devolverAsteriscos(Integer.parseInt(numero))));
+		assertEquals(Boolean.parseBoolean(result), asteriscos.equals
+				(e3.devolverAsteriscos(Integer.parseInt(numero))));
 	}
 	
 }
