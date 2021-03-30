@@ -36,9 +36,12 @@ public class Ejercicio8Test {
         resultado.setPesoVehiculo(v1.getPesoVehiculo()+v2.getPesoVehiculo());
 
         assertAll(
-                () -> assertEquals(expected.getNumPasajeros(),     resultado.getNumPasajeros(), 0.0000001, "Falla la parte real"),
-                () -> assertEquals(expected.getNumRuedas(),    	   resultado.getNumRuedas(), 0.0000001, "Falla la parte imaginaria"),
-                () -> assertEquals(expected.getPesoVehiculo(),     resultado.getPesoVehiculo(), 0.0000001, "Falla la parte imaginaria")
+                () -> assertEquals(expected.getNumPasajeros(),     
+                		resultado.getNumPasajeros()),
+                () -> assertEquals(expected.getNumRuedas(),    	   
+                		resultado.getNumRuedas()),
+                () -> assertEquals(expected.getPesoVehiculo(),     
+                		resultado.getPesoVehiculo())
                 
                 );
     }
@@ -58,7 +61,7 @@ public class Ejercicio8Test {
         // Ferry aun vacio 
         assertEquals(r1.vacio(), true);
         assertEquals(r1.totalVehiculos(), 0);
-        // Añadimos vehiculos
+        // Aï¿½adimos vehiculos
         r1.embarcarVehiculo(new Vehiculo(3, 4, 200));
         assertEquals(r1.superadoMaximoVehiculos(), false);
         assertEquals(r1.superadoMaximoPeso(), false);

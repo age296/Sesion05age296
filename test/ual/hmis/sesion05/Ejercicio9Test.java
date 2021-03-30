@@ -41,7 +41,8 @@ public class Ejercicio9Test {
 	
     @ParameterizedTest(name = "{index} => A {0} B {1} result {2}")
     @MethodSource("Lists")
-    <T extends Comparable<? super T>> void  testWithExplicitLocalMethodSourceVehiculos(ArrayList<T> v1, ArrayList<T> v2, ArrayList<T> expected) {
+    <T extends Comparable<? super T>> void  testWithExplicitLocalMethodSourceVehiculos(ArrayList<T> v1, 
+    		ArrayList<T> v2, ArrayList<T> expected) {
     	Ejercicio9 e9 = new Ejercicio9();
     	assertEquals(e9.listaCadenasOrdenadas(v1, v2), expected);
     }

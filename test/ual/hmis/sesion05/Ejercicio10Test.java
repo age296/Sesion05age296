@@ -22,6 +22,7 @@ public class Ejercicio10Test {
                 
                 Arguments.of("2 3 5", null),
                 Arguments.of("32768", null),
+                Arguments.of("-32769", null),
                 Arguments.of("B3", null),
                 Arguments.of("3.5", null)
               

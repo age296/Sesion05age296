@@ -7,10 +7,10 @@ public class Ejercicio10 {
 		try {
 			result = Integer.parseInt(numero);
 			if(result <-32768 || result> 32767) return null;
+			return result;
 		}catch(Exception e) {
 			return null;
 		}
 		
-		return result;
 	}
 }

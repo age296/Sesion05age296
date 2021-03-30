@@ -15,6 +15,9 @@ public class calcularNotaActividadTest {
 	public void testSumar() {
 		Alumno age296 = new Alumno();
 		ArrayList<Actividad> actividadesAsignadas = new ArrayList<Actividad>();
+		// Sin actividades
+		age296.setActividadesAsignadas(actividadesAsignadas);
+		assertEquals(age296.calcularNotaActividad("Actividad 0"), 0.0);
 		for(int i = 0; i<3; i++) {
 			actividadesAsignadas.add(new Actividad());
 			actividadesAsignadas.get(i).setNombre("Actividad "+i);

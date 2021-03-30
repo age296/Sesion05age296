@@ -77,6 +77,7 @@ public class Alumno {
 
 	public double calcularNotaActividad(String nombreActividad) {
 		double result = .0;
+		
 		for(Actividad actividades: actividadesAsignadas) {
 			if(nombreActividad.equals(actividades.getNombre())){
 				actividades.setPuntuacionTotal(.0);
