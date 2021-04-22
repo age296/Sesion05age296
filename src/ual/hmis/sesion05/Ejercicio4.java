@@ -1,8 +1,5 @@
 package ual.hmis.sesion05;
 
-/* Escriba el código de un método en Java que tome cómo parámetros de entrada dos
-cadenas de caracteres, P1, P2, y devuelva otra cadena que contenga los caracteres de P1
-que están en P2.*/
 
 public class Ejercicio4 {
 	public String palabrasContenidas(String P1, String P2) {

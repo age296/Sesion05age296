@@ -8,14 +8,14 @@ public class Ejercicio2 {
 		// comprobar que la longitud sea < 30
 		if (username.length()>= 30 || password.length()>=30)
 			return false;
-		// llamar al método de la bbdd
+		// llamar al mï¿½todo de la bbdd
 		return compruebaLoginEnBD(username, password);
 
 	}
 
 	public boolean compruebaLoginEnBD
 	(String username, String password){
-		// método mock (simulado)
+		// metodo mock (simulado)
 		if (username.equals("user") && password.equals("pass"))
 			return true;
 		else

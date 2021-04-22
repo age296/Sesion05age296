@@ -61,7 +61,7 @@ public class Ejercicio8Test {
         // Ferry aun vacio 
         assertEquals(r1.vacio(), true);
         assertEquals(r1.totalVehiculos(), 0);
-        // A�adimos vehiculos
+        // Añadimos vehiculos
         r1.embarcarVehiculo(new Vehiculo(3, 4, 200));
         assertEquals(r1.superadoMaximoVehiculos(), false);
         assertEquals(r1.superadoMaximoPeso(), false);

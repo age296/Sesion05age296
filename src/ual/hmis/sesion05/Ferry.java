@@ -3,11 +3,7 @@ package ual.hmis.sesion05;
 import java.util.ArrayList;
 
 public class Ferry {
-	/* El Ferry transporta un
-	conjunto de vehículos, y sus pasajeros. La clase Ferry tendrá atributos como: máximo
-	número de pasajeros, peso máximo de vehículos, número total de pasajeros, número total
-	de vehículos, peso total de vehículos. Además, el Ferry guardará la lista de vehículos que
-	transporta*/
+	
 	private int numPasajerosMax;
 	private int numVehiculosMax;
 	private int pesoMax;
