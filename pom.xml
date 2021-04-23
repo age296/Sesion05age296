@@ -140,6 +140,10 @@
 				<version>6.1.5</version>
 				<configuration>
 					<skipTestScope>false</skipTestScope>
+					<formats> 
+            			<format>HTML</format>
+            			<format>XML</format>
+         			 </formats>
 				</configuration>
 				<reportSets>
 					<reportSet>
